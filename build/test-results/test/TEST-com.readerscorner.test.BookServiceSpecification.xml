@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.readerscorner.test.BookServiceSpecification" tests="3" skipped="0" failures="0" errors="0" timestamp="2018-12-16T03:22:36" hostname="yamakada.localdomain" time="0.144">
+  <properties/>
+  <testcase name="retrieved book object is not null" classname="com.readerscorner.test.BookServiceSpecification" time="0.109"/>
+  <testcase name="retrieved book object is null" classname="com.readerscorner.test.BookServiceSpecification" time="0.024"/>
+  <testcase name="book id must be greater then 0" classname="com.readerscorner.test.BookServiceSpecification" time="0.011"/>
+  <system-out><![CDATA[12:22:36.926 [Test worker] DEBUG c.r.test.BookServiceSpecification - setupSpec() - Runs once per Specification
+12:22:36.940 [Test worker] DEBUG c.r.test.BookServiceSpecification - setup() - Run before every feature method
+12:22:37.026 [Test worker] DEBUG c.r.test.BookServiceSpecification - Feature method 1 - retrieved book object is not null start
+12:22:37.041 [Test worker] DEBUG c.r.test.BookServiceSpecification - Book [bookId =1, title=Srujana, author=Spock Tut]
+12:22:37.044 [Test worker] DEBUG c.r.test.BookServiceSpecification - Cleanup method - Runs after every feature method.
+12:22:37.045 [Test worker] DEBUG c.r.test.BookServiceSpecification - setup() - Run before every feature method
+12:22:37.046 [Test worker] DEBUG c.r.test.BookServiceSpecification - Feature method 1 - retrieved book object is not null start
+12:22:37.047 [Test worker] DEBUG c.r.test.BookServiceSpecification - Book [bookId =2, title=Eugen, author=JUnit Tut]
+12:22:37.047 [Test worker] DEBUG c.r.test.BookServiceSpecification - Cleanup method - Runs after every feature method.
+12:22:37.071 [Test worker] DEBUG c.r.test.BookServiceSpecification - setup() - Run before every feature method
+12:22:37.071 [Test worker] DEBUG c.r.test.BookServiceSpecification - Feature method - 2 retrieved book object is null - start
+12:22:37.072 [Test worker] DEBUG c.r.test.BookServiceSpecification - Book with this ID does not exists
+12:22:37.072 [Test worker] DEBUG c.r.test.BookServiceSpecification - Cleanup method - Runs after every feature method.
+12:22:37.073 [Test worker] DEBUG c.r.test.BookServiceSpecification - setup() - Run before every feature method
+12:22:37.074 [Test worker] DEBUG c.r.test.BookServiceSpecification - Feature method 3 - book id must be greater then 0 - start
+12:22:37.084 [Test worker] DEBUG c.r.test.BookServiceSpecification - Cleanup method - Runs after every feature method.
+12:22:37.084 [Test worker] DEBUG c.r.test.BookServiceSpecification - cleanupSpec() - Runs only once per specification
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
